@@ -1,0 +1,36 @@
+{
+  "name": "@alphaseed/pg-backup",
+  "version": "1.0.0",
+  "description": "Automated PostgreSQL backup script with compression, encryption, and cloud storage support (S3, GCS, B2)",
+  "main": "pg-backup.sh",
+  "bin": {
+    "pg-backup": "./pg-backup.sh"
+  },
+  "scripts": {
+    "install": "chmod +x pg-backup.sh",
+    "backup": "./pg-backup.sh",
+    "test": "./pg-backup.sh --test"
+  },
+  "keywords": [
+    "postgresql",
+    "postgres",
+    "backup",
+    "database",
+    "aws",
+    "s3",
+    "gcs",
+    "b2",
+    "automation",
+    "cron",
+    "docker"
+  ],
+  "author": "αB <https://github.com/AlphaB135>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlphaB135/pg-backup.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
